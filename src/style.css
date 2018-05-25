@@ -4,3 +4,13 @@ html {
     display: grid;
 }
 
+body {
+    background-attachment: fixed;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-display: times;
+    font-style: italic;
+    font-size: 20mm;
+}
