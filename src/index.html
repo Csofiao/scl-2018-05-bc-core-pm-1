@@ -2,12 +2,32 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <title>Cifrado Cesar</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <h1>Caesar Talk</h1>
+<div class="section">
+  <h2>Escribe tu mensaje aquí</h2>
 
-  <div id="root"></div>
+  <textarea name="message"></textarea>
+  <input type="submit" value="Enviar" class="submit" />
+  <p>Mensaje codificado</p>
+  <textarea name="message"></textarea>
+  <input type="submit" value="Copiar texto" class="submit" />
+</div>
+
+  <div id="root">
+    <div class="section">
+      <h3>Pega aquí tu mensaje codificado</h3>
+
+      <textarea name="message"></textarea>
+      <input type="submit" value ="Enviar" class="submit" />
+      <p>Mensaje revelado</p>
+      <textarea name="message"></textarea>
+      <input type="submit" value="Copiar texto" class="submit" />
+    </div>
+  </div>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>

@@ -1,1 +1,5 @@
-/* Acá va tu código */
+html {
+    text-align: center;
+    background-color: gold;
+    display: grid;
+}
